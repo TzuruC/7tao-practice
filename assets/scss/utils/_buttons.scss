@@ -1,0 +1,17 @@
+%button-style {
+    padding: 8px 136px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background: $gray-900;
+
+    &:hover {
+        color: $warning;
+        background: $gray-900;
+    }
+    &:disabled {
+        color: $white;
+        background: $gray-500;
+    }
+}
+  
