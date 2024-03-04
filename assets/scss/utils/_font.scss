@@ -1,0 +1,27 @@
+// date font - Yeseva One
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+
+// 次標題名稱 - 24px Noto Serif TC
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+TC&family=Yeseva+One&display=swap');
+
+// 內文 16px 行高24px
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&display=swap');
+
+.font-title {
+    line-height: auto;
+    font-family: 'Yeseva One', serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.font-subtitle {
+    font-family: 'Noto Serif TC', serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.text-content {
+    font-size: 16px;
+    line-height: 24px;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}

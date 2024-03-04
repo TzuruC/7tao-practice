@@ -1,13 +1,16 @@
-@import "../../node_modules/bootstrap/scss/functions";
+@import '../../node_modules/bootstrap/scss/functions';
 @import './utils/variables';
 @import './utils/buttons';
 @import './utils/cards';
 @import './utils/images.scss';
+@import './utils/carousel.scss';
+@import './utils/font.scss';
+@import './utils/title.scss';
+@import './utils/mixins.scss';
 
 @import './layout/header.scss';
 @import './layout/footer.scss';
 
 @import './pages/index.scss';
 
-
-@import "../../node_modules/bootstrap";
+@import '../../node_modules/bootstrap';

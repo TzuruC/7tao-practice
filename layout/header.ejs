@@ -1,4 +1,53 @@
-<h1 class="header">我是 header</h1>
-<a href="index.html">index</a>
-<a href="about.html">about</a>
-<a href="contact.html">contact</a>
+<header class="border-bottom border-dark border-3">
+    <div class="container p-12 p-md-24 d-flex justify-content-between align-items-center">
+        <div class="d-flex">
+            <div class="logo me-24 me-md-48">
+                <a class="d-flex" href="index.html">
+                    <img
+                        src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/2023week6/logo.png"
+                        alt="logo"
+                    />
+                    <h1 class="d-none d-lg-block font-title fs-4">
+                        7TAO<span class="font-subtitle fs-3">活動訂票網</span>
+                    </h1>
+                </a>
+            </div>
+            <div class="search border border-dark d-flex">
+                <input
+                    class="header-search py-0 px-8 border-0 text-3 text-content bg-body"
+                    type="search"
+                    placeholder="探索活動"
+                />
+                <button class="btn btn-dark text-warning"><i class="icofont-search-1"></i></button>
+            </div>
+        </div>
+        <div class="nav-button d-md-none">
+            <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="32"
+                height="32"
+                class="bi"
+                fill="currentColor"
+                viewBox="0 0 16 16"
+            >
+                <path
+                    fill-rule="evenodd"
+                    d="M2.5 11.5A.5.5 0 0 1 3 11h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 7h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 3h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"
+                ></path>
+            </svg>
+        </div>
+        <nav class="d-none d-md-block">
+            <ul class="mb-0 list-unstyled d-flex align-items-center font-title">
+                <li>
+                    <a class="py-16 px-12" href="REGISTER">
+                        <i class="icofont-ui-file"></i>
+                        REGISTER</a
+                    >
+                </li>
+                <li>
+                    <a class="py-16 px-12" href="LOGIN"><i class="icofont-ui-user"></i>LOGIN</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</header>

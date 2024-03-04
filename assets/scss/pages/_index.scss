@@ -1,3 +1,30 @@
+.logo img {
+    width: 46px;
+    border: 1px solid $dark;
+    @include media-sm {
+        width: 53px;
+    }
+}
 .index-title {
-  font-size: 100px;
+    font-size: 100px;
+}
+.header-search {
+    max-width: 160px;
+    &:focus-visible {
+        outline: none;
+    }
+    @include media-sm {
+        max-width: 286px;
+    }
+}
+.nav-button {
+    padding: 6px 12px 0px;
+    border: 2px solid $dark;
+    border-radius: 4px;
+    cursor: pointer;
+}
+nav a {
+    &:hover {
+        color: #9c9e18;
+    }
 }
