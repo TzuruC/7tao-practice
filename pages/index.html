@@ -33,7 +33,7 @@
                             <div class="date font-title text-start lh-sm">19 MAY <span class="d-block">2023</span></div>
                             <div class="slide-caption">
                                 <h3 class="slide-title text-center font-subtitle">隔牆有耳-沒有草東的派對</h3>
-                                <div class="start-0 slide-content d-none">
+                                <div class="start-0 slide-content d-none d-lg-block">
                                     你各位聽團仔們！每次想跟朋友一起聽草東專場卻每一次都搶不到票？「草東沒有派對」永遠都是「草東沒有門票」！<br />
                                     帶上啤酒、野餐墊，讓我們在Live House外面一起開場「沒有草東的派對」吧！
                                 </div>
@@ -43,7 +43,7 @@
                     <div class="swiper-button-prev text-white"></div>
                     <div class="swiper-button-next text-white"></div>
                 </swiper-container>
-
+                <!-- EVENT TYPE -->
                 <div class="event-type">
                     <ul class="row p-0 m-0 justify-content-between flex-wrap">
                         <li class="mb-8 list-unstyled pt-20 pt-md-36 px-36 border border-dark border-2 text-center">
@@ -102,7 +102,7 @@
                             class="mb-8 list-unstyled pt-20 pt-md-20 border border-dark border-2 text-center d-flex flex-column justify-content-center bg-dark"
                         >
                             <figure>
-                                <a href="#" class="font-title fw-bold lh-base text-warning">
+                                <a href="#" class="font-title fw-bold lh-sm text-warning">
                                     探索 <span class="d-block">更多</span>
                                 </a>
                             </figure>
@@ -112,9 +112,12 @@
             </div>
 
             <!-- RECENT -->
-            <div class="recent">
-                <div class="title">
-                    <h2><span></span></h2>
+            <div class="recent py-16">
+                <div
+                    class="title mb-24 py-16 py-md-24 px-12 px-md-32 d-flex justify-content-between align-items-center border border-dark border-2"
+                >
+                    <h2 class="title-l m-0 font-title">RECENT</h2>
+                    <h2 class="title-r m-0 font-subtitle fw-bold">近期活動</h2>
                 </div>
                 <ul class="row">
                     <li class="list-unstyled"></li>
@@ -127,7 +130,14 @@
             </div>
 
             <!-- ONLINE -->
-            <div class="online"></div>
+            <div class="online">
+                <div
+                    class="title mb-24 py-16 py-md-24 px-12 px-md-32 d-flex justify-content-between align-items-center border border-dark border-2"
+                >
+                    <h2 class="title-l m-0 font-title">ONLINE</h2>
+                    <h2 class="title-r m-0 font-subtitle fw-bold">線上活動</h2>
+                </div>
+            </div>
         </div>
         <!-- CAROUSEL -->
         <%- include('./layout/carousel'); -%>
