@@ -15,47 +15,88 @@
 
         <div class="container">
             <!-- HERO -->
-            <div class="hero">
-                <div class="banner">
-                    <div class="date">19 MAY <span>2023</span></div>
-                    <div class="h3"></div>
-                </div>
+            <div class="hero py-16">
+                <swiper-container
+                    class="mySwiper mb-32"
+                    pagination="true"
+                    pagination-clickable="false"
+                    navigation="false"
+                    space-between="30"
+                    centered-slides="true"
+                    autoplay-delay="2500"
+                    autoplay-disable-on-interaction="true"
+                >
+                    <swiper-slide class="event-slide">
+                        <figcaption
+                            class="w-100 px-52 pt-16 pb-24 d-flex flex-column justify-content-between text-white"
+                        >
+                            <div class="date font-title text-start lh-sm">19 MAY <span class="d-block">2023</span></div>
+                            <div class="slide-caption">
+                                <h3 class="slide-title text-center font-subtitle">隔牆有耳-沒有草東的派對</h3>
+                                <div class="start-0 slide-content d-none">
+                                    你各位聽團仔們！每次想跟朋友一起聽草東專場卻每一次都搶不到票？「草東沒有派對」永遠都是「草東沒有門票」！<br />
+                                    帶上啤酒、野餐墊，讓我們在Live House外面一起開場「沒有草東的派對」吧！
+                                </div>
+                            </div>
+                        </figcaption>
+                    </swiper-slide>
+                    <div class="swiper-button-prev text-white"></div>
+                    <div class="swiper-button-next text-white"></div>
+                </swiper-container>
+
                 <div class="event-type">
-                    <ul class="row">
+                    <ul class="row p-0 m-0 justify-content-between flex-wrap">
+                        <li class="mb-8 col-4 list-unstyled py-20 px-36 border border-dark border-2 text-center">
+                            <figure class="m-0">
+                                <img
+                                    class=""
+                                    src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/089c08805225f9e5861d199b084cba8a05bdaa40/2023week6/cate01.svg"
+                                    alt="演出"
+                                />
+                                <figcaption>演出</figcaption>
+                            </figure>
+                        </li>
+                        <li class="col-4 list-unstyled py-20 px-36 border border-dark border-2 text-center">
+                            <figure>
+                                <img
+                                    class=""
+                                    src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/089c08805225f9e5861d199b084cba8a05bdaa40/2023week6/cate02.svg"
+                                    alt="聯誼"
+                                />
+                                <figcaption>聯誼</figcaption>
+                            </figure>
+                        </li>
                         <li class="col-4 list-unstyled">
                             <figure>
-                                <img src="" alt="" />
-                                <figcaption></figcaption>
+                                <img
+                                    src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/089c08805225f9e5861d199b084cba8a05bdaa40/2023week6/cate03.svg"
+                                    alt="展覽"
+                                />
+                                <figcaption>展覽</figcaption>
+                            </figure>
+                        </li>
+                        <li class="col-4 list-unstyled">
+                            <figure>
+                                <img
+                                    src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/089c08805225f9e5861d199b084cba8a05bdaa40/2023week6/cate04.svg"
+                                    alt="美食"
+                                />
+                                <figcaption>美食</figcaption>
+                            </figure>
+                        </li>
+                        <li class="col-4 list-unstyled">
+                            <figure>
+                                <img
+                                    src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/089c08805225f9e5861d199b084cba8a05bdaa40/2023week6/cate05.svg"
+                                    alt="戶外"
+                                />
+                                <figcaption>戶外</figcaption>
                             </figure>
                         </li>
                         <li class="col-4 list-unstyled">
                             <figure>
                                 <img src="" alt="" />
-                                <figcaption></figcaption>
-                            </figure>
-                        </li>
-                        <li class="col-4 list-unstyled">
-                            <figure>
-                                <img src="" alt="" />
-                                <figcaption></figcaption>
-                            </figure>
-                        </li>
-                        <li class="col-4 list-unstyled">
-                            <figure>
-                                <img src="" alt="" />
-                                <figcaption></figcaption>
-                            </figure>
-                        </li>
-                        <li class="col-4 list-unstyled">
-                            <figure>
-                                <img src="" alt="" />
-                                <figcaption></figcaption>
-                            </figure>
-                        </li>
-                        <li class="col-4 list-unstyled">
-                            <figure>
-                                <img src="" alt="" />
-                                <figcaption></figcaption>
+                                <figcaption>探索 更多</figcaption>
                             </figure>
                         </li>
                     </ul>
@@ -93,7 +134,7 @@
         <!-- CAPTION -->
 
         <%- include('./layout/footer'); -%>
-
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
         <script type="module" src="../main.js"></script>
     </body>

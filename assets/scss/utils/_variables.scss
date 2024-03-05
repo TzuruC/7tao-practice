@@ -383,13 +383,15 @@ $spacers: (
     24: 24px,
     28: 28px,
     32: 32px,
+    36: 36px,
     48: 48px,
+    52: 52px,
     // 0: 0,
     // 1: $spacer * 0.25,
     // 2: $spacer * 0.5,
     // 3: $spacer,
     // 4: $spacer * 1.5,
-    // 5: $spacer * 3,,,,,,,,,,,,,,,
+    // 5: $spacer * 3,,,,,,,,,,,,,,,,,,
 ) !default;
 // scss-docs-end spacer-variables-maps
 
@@ -616,7 +618,7 @@ $display-font-sizes: (
     // 3: 4rem,
     // 4: 3.5rem,
     // 5: 3rem,
-    // 6: 2.5rem,,,,,,,,,,,,,,,,,,
+    // 6: 2.5rem,,,,
 ) !default;
 
 $display-font-family: null !default;
