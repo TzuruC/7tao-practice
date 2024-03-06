@@ -69,3 +69,75 @@
     @extend %event-covers;
     background-image: $event06;
 }
+
+// ALBUM
+%album-styles {
+    width: 291px;
+    position: relative;
+    @include media-lg {
+        width: 344px;
+    }
+    @include media-xl {
+        width: 306px;
+    }
+    .category {
+        width: 96px;
+        height: 39px;
+        margin: auto;
+        line-height: 39px;
+        display: inline-block;
+        position: absolute;
+        background: $white;
+        top: -350px;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        text-align: center;
+        transform: rotate(0deg);
+    }
+    .album-cover {
+        width: 100%;
+        min-height: 267px;
+        background-image: $album01;
+        background-size: cover;
+    }
+}
+.album-card-1 {
+    @extend %album-styles;
+    .category {
+        transform: rotate(-4deg);
+    }
+    .album-cover {
+        background-image: $album01;
+    }
+}
+.album-card-2 {
+    @extend %album-styles;
+    transform: rotate(2deg);
+    .category {
+        transform: rotate(-5deg);
+    }
+    .album-cover {
+        background-image: $album02;
+    }
+}
+.album-card-3 {
+    @extend %album-styles;
+    transform: rotate(-2deg);
+    .category {
+        transform: rotate(-1deg);
+    }
+    .album-cover {
+        background-image: $album03;
+    }
+}
+.album-card-4 {
+    @extend %album-styles;
+    transform: rotate(2deg);
+    .category {
+        transform: rotate(-6deg);
+    }
+    .album-cover {
+        background-image: $album04;
+    }
+}

@@ -28,9 +28,11 @@
                 >
                     <swiper-slide class="event-slide">
                         <figcaption
-                            class="w-100 px-52 pt-16 pb-24 d-flex flex-column justify-content-between text-white"
+                            class="w-100 px-52 pt-16 pt-lg-48 pb-24 d-flex flex-column justify-content-between text-white"
                         >
-                            <div class="date font-title text-start lh-sm">19 MAY <span class="d-block">2023</span></div>
+                            <div class="date font-title text-start lh-sm">
+                                19 MAY <span class="d-block d-lg-inline">2023</span>
+                            </div>
                             <div class="slide-caption">
                                 <h3 class="slide-title text-center font-subtitle">隔牆有耳-沒有草東的派對</h3>
                                 <div class="start-0 slide-content d-none d-lg-block">
@@ -112,7 +114,7 @@
             </div>
 
             <!-- RECENT -->
-            <div class="recent py-16">
+            <div class="recent mb-32">
                 <div
                     class="title mb-24 py-16 py-md-24 px-12 px-md-32 d-flex justify-content-between align-items-center border border-dark border-2"
                 >
@@ -236,7 +238,7 @@
                             </div>
                         </div>
                     </li>
-                    <li class="list-unstyled col-md-4 col-sm-6 mb-24">
+                    <li class="list-unstyled col-md-4 col-sm-6">
                         <div class="event-card">
                             <div class="date mb-16 font-title border-dark border-bottom border-2">9 July 2023</div>
                             <div class="event-cover-6 mb-8"></div>
@@ -295,14 +297,71 @@
         <!-- CAROUSEL -->
         <%- include('./layout/carousel'); -%>
 
-        <!-- GROUP EVENT -->
-        <div class="container"></div>
+        <!-- ALBUMS -->
+        <div
+            class="container albums py-48 d-flex flex-column flex-md-row flex-wrap justify-content-md-around justify-content-xxl-between align-items-center"
+        >
+            <div class="album-card-1 mb-48 pt-12 pb-32 px-12 border border-2 border-dark">
+                <div class="category font-subtitle fs-3">社群活動</div>
+                <div class="album-cover mb-12"></div>
+                <div class="title font-subtitle fs-5">無聲派對-閉閉嘴dancing</div>
+            </div>
+            <div class="album-card-2 mb-48 pt-12 pb-32 px-12 border border-2 border-dark">
+                <div class="category font-subtitle fs-3">藝文活動</div>
+                <div class="album-cover mb-12"></div>
+                <div class="title font-subtitle fs-5">拯救老店大作戰</div>
+            </div>
+            <div class="album-card-3 mb-48 pt-12 pb-32 px-12 border border-2 border-dark">
+                <div class="category font-subtitle fs-3">自我覺察</div>
+                <div class="album-cover mb-12"></div>
+                <div class="title font-subtitle fs-5">內觀修行-部落篇</div>
+            </div>
+            <div class="album-card-4 mb-48 pt-12 pb-32 px-12 border border-2 border-dark">
+                <div class="category font-subtitle fs-3">聯誼活動</div>
+                <div class="album-cover mb-12"></div>
+                <div class="title font-subtitle fs-5">賞櫻野餐</div>
+            </div>
+        </div>
+
         <!-- CAROUSEL -->
         <%- include('./layout/carousel'); -%>
 
         <!-- FOLLOW & SUBSCRIBE -->
-        <div class="container"></div>
+        <div class="container">
+            <div>
+                <div class="follow">
+                    <div class="title"></div>
+                    <div class="content"></div>
+                    <ul class="contact">
+                        <li class="d-flex">
+                            <i class="icofont-ui-email"></i>
+                            7tao.event@gmail.com
+                        </li>
+                        <li class="d-flex">
+                            <i class="icofont-phone"></i>
+                            09123123123
+                        </li>
+                        <li class="d-flex">
+                            <i class="icofont-facebook"></i>
+                            7TAO七逃
+                        </li>
+                    </ul>
+                </div>
+                <div class="subscrive">
+                    <div class="title"></div>
+                    <div class="content"></div>
+                    <input type="text" />
+                    <button href="#" class="btn bg-dark button-full">
+                        確認訂閱<i class="icofont-double-right"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
         <!-- CAPTION -->
+        <div class="caption container font-subtitle">
+            <div class="main">此刻打盹，你將做夢；此刻學習，你將圓夢</div>
+            <div class="sign">——我也不知道誰說的</div>
+        </div>
 
         <%- include('./layout/footer'); -%>
         <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
