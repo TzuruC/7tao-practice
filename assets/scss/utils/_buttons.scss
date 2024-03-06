@@ -1,17 +1,19 @@
 %button-style {
-    padding: 8px 136px;
-    border: none;
-    border-radius: 5px;
+    padding: 16px auto;
+    text-align: center;
     cursor: pointer;
-    background: $gray-900;
-
+    background: $dark;
+    color: $white !important;
+    display: block;
     &:hover {
-        color: $warning;
-        background: $gray-900;
+        color: $warning !important;
     }
     &:disabled {
-        color: $white;
         background: $gray-500;
     }
 }
-  
+
+.button-full {
+    @extend %button-style;
+    width: 100%;
+}

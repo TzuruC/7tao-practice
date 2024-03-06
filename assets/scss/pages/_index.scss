@@ -114,3 +114,45 @@ figcaption .slide-content {
         }
     }
 }
+// ONLINE
+.online-cover {
+    width: 100%;
+    min-height: 158px;
+    background-image: $online;
+    background-size: cover;
+    background-position: center 34%;
+    @include media-md {
+        width: 58%;
+        min-height: 317px;
+        margin-bottom: 0;
+        background-position: center 32%;
+    }
+}
+.online-caption {
+    @include media-md {
+        width: 41%;
+    }
+}
+.online .title {
+    font-size: 18px;
+    @include media-lg {
+        font-size: 32px;
+    }
+}
+.online .tag {
+    font-size: 14px;
+    position: relative;
+    @include media-lg {
+        font-size: 16px;
+    }
+    &::before {
+        content: ' ';
+        width: 2px;
+        height: 100%;
+        display: block;
+        background: $dark;
+        top: 0;
+        left: 0;
+        position: absolute;
+    }
+}
