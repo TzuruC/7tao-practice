@@ -168,3 +168,12 @@ figcaption .slide-content {
 .subscribe {
     @extend %follow-sub;
 }
+// CAPTION
+.caption {
+    .main {
+        font-size: 18px;
+    }
+    .sub {
+        font-size: 14px;
+    }
+}
