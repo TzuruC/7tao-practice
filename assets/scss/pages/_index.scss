@@ -160,20 +160,40 @@ figcaption .slide-content {
 %follow-sub {
     .title {
         font-size: 24px;
+        @include media-lg {
+            font-size: 32px;
+        }
     }
 }
 .follow {
+    border-right: 2px solid $dark;
     @extend %follow-sub;
+    @include media-lg {
+        border-right: none !important;
+    }
 }
 .subscribe {
     @extend %follow-sub;
+    button {
+        font-size: 16px;
+        @include media-lg {
+            font-size: 20px;
+        }
+    }
 }
 // CAPTION
 .caption {
     .main {
         font-size: 18px;
+        @include media-lg {
+            font-size: 32px;
+        }
     }
     .sub {
+        margin-left: -2px;
         font-size: 14px;
+        @include media-lg {
+            font-size: 18px;
+        }
     }
 }
