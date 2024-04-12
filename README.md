@@ -1,11 +1,7 @@
-# 關於 TC - Protfolio
-
-本篇收錄 2023 年到 2024 年間製作，最接近近期狀態的幾個網頁設計作品。  
-其中各別標注設計專案時使用的核心技能，  
-並附加 GitHub Repo 與 Demo site 連結供參考。
+# 關於 7TAO practice
+是作為切版訓練練習。
 
 # 使用技術
-
 #React #vite #Bootstrap
 
 # 環境版本
