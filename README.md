@@ -16,17 +16,6 @@ React - v18
 Vite - v5
 
 # 資料夾結構
-
-- src # main.jsx, App.jsx, index.css, 以及 mockup.html 放置處  
-  - assets # 圖片放置處  
-    -scss # SCSS 樣式放置處
-
-Copyright © Tzuru Chen 2024  
-Email: tzuruc@gmail.com
-
-
-
-## 資料夾結構
   - assets # 靜態資源放置處
     - images # 圖片放置處
     - scss # SCSS 的樣式放置處
@@ -35,3 +24,6 @@ Email: tzuruc@gmail.com
   - pages # 頁面放置處
 
 - JavaScript 程式碼可寫在 main.js 檔案
+
+Copyright © Tzuru Chen 2024  
+Email: tzuruc@gmail.com
