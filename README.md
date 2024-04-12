@@ -19,7 +19,7 @@ Vite - v5
 
 - src # main.jsx, App.jsx, index.css, 以及 mockup.html 放置處  
   - assets # 圖片放置處  
-src/assets/scss # SCSS 樣式放置處
+    -scss # SCSS 樣式放置處
 
 Copyright © Tzuru Chen 2024  
 Email: tzuruc@gmail.com
