@@ -1,5 +1,5 @@
 # 關於 7TAO practice
-是作為切版訓練練習。
+本專案作為切版練習用途
 
 # 使用技術
 #React #vite #Bootstrap
